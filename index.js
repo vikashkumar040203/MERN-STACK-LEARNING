@@ -189,3 +189,62 @@
 
 // select element by id
 
+// let x = document.getElementById("name1");
+// x.addEventListener("focus", myfocus);
+// x.addEventListener("focus", myblurr);
+// function myfocus() {
+//   x.style.background = "yellow";
+// }
+// function myblurr() {
+//   x.style.background = "white";
+// }
+//  Event Bubbling & Event Capturing
+//   let anchor = document.getElementById("link");
+
+//   anchor.addEventListener('click',function(e){
+//     console.log("linked clicked....");
+//     e.preventDefault();
+
+//   })
+
+// console.log("hello")
+
+// **************************************************
+
+// Browser Object Model
+
+// let btn = document.getElementById("id");
+
+// let url = "https://www.google.com";
+// let features= "height = 500, width = 500";
+// btn.addEventListener("click", function () {
+//   window.open(url,'google',features);
+// });
+
+
+
+// time out and time in
+
+
+
+// setTimeout(myfunction,5000);
+// function myfunction(){
+//     alert("khushi luv u");
+// }
+
+
+// Location Object
+
+// console.log(location.href);
+// console.log(location.pathname);
+// console.log(location.protocol);
+
+
+// navigotor object
+
+
+// console.log(navigator.appName)
+
+
+// screen Object
+

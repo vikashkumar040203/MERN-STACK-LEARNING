@@ -221,17 +221,12 @@
 //   window.open(url,'google',features);
 // });
 
-
-
 // time out and time in
-
-
 
 // setTimeout(myfunction,5000);
 // function myfunction(){
 //     alert("khushi luv u");
 // }
-
 
 // Location Object
 
@@ -239,12 +234,134 @@
 // console.log(location.pathname);
 // console.log(location.protocol);
 
-
 // navigotor object
-
 
 // console.log(navigator.appName)
 
-
 // screen Object
+
+// Advanced java script
+// ECMASCRIPT
+
+// Default parameter
+
+// function talk(msg="hi "){
+//     console.log(msg);
+// }
+// talk();
+
+// rest parameter
+
+// function sum(...args){
+//     // console.log(args);
+//     let result = 0;
+//     for(let i=0;i<args.lengthl;i++){
+//         result=result+args[i];
+
+//     }
+//     console.log(result);
+// }
+// sum(1);
+
+// Spread Operator
+
+// let array1= [1,2,3];
+// let array2 =[5,4,6,...array1];
+// console.log(array2);
+
+// for of
+
+// let array1= [1,2,3,12,34,56,788];
+// for(let x of array1){
+//     console.log(x);
+// }
+
+// template literals
+
+// let str='hello  \n world';
+// console.log(str);
+
+// use backtick for template literals
+
+// object destructing
+
+// let book={
+//     name:"DSA",
+//     price:399,
+//     page:1000
+// };
+// console.log(book.price)
+
+// ES 6 Module
+
+// ****************oops*********************************
+
+// oops before es6
+// let person1 = {
+//   name: "vikash",
+//   lastName: "kumar",
+//   age: 21,
+//   phone: 1234,
+//   fullName: function () {
+//     console.log(this.name + " " + this.lastName);
+//   },
+// };
+// person1.fullName();
+// // console.log(person1.name);
+
+
+
+
+// function Person(f_name, l_name, age){
+//     this.firstName-f_name;
+//     this.LastName=l_name;
+//     this.age=age;
+// }
+
+
+// let P= new Person("khushi","gupta",19);
+// console.log(P);
+
+
+
+// Prototype & Inheritance
+
+
+// let person1={};
+// console.log(person1);
+// let person2={
+//     name:"khushi"
+// };
+// console.log(person2);
+
+// class AND Object
+
+
+// class person{
+//     constructor(n,a){
+//         this.name= n;
+//         this.age=a;
+
+
+//     }
+
+//     sayHi(){
+//         console.log("hi    khushi");
+
+//     }
+// }
+
+// let person1 = new person();
+
+// console.log(person1.sayHi);
+
+
+// Arrow Function
+
+// let sum =(a,b)=>{
+//     return a+b
+
+// }
+// console.log(sum(1,2));
+
 
